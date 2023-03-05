@@ -253,13 +253,13 @@ function sendMail(account_number, email) {
     var transporter = nodemailer.createTransport({
       service: "outlook",
       auth: {
-        user: "satvik.verma@iiitb.ac.in",
-        pass: "SatvikVerma@0209",
+        user: "rahulsharma1425@outlook.com",
+        pass: "RahulSharma",
       },
     });
 
     var mailOptions = {
-      from: "satvik.verma@iiitb.ac.in",
+      from: "rahulsharma1425@outlook.com",
       to: email,
       subject: "Your User ID",
       text: "Show the QR code to where ever account number is required.\nYour Account number is " + account_number,
